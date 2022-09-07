@@ -1,1 +1,41 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+  background-color: aquamarine;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 30vw;
+  height: fit-content;
+  text-align: center;
+}
+.joke {
+  width: auto;
+  margin:10% 20%;
+}
+.btn{
+  margin-bottom: 5%;
+  width: 20%;
+  text-align: center;
+  height: 20%;  
+  border-radius: 5px;
+  background-color: darkred;
+  color: white;
+}
+.btn:hover{
+  background-color: brown;
+}
 
+@media only screen and (max-width: 1024px){
+  .container{
+    width: 60vw;
+  }
+}
+@media only screen and (max-width: 600px){
+  .container{
+    width: 80vw;
+  }
+}
